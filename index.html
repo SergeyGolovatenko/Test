@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="jquery.dotdotdot.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#dot").dotdotdot({
+                watch: 'window'
+            });
+        });
+    </script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="logo">
+        <div class="banner">
+            <div id="dot"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        </div>
+        <div class="menu">
+            <p>360p</p>
+            <p>720p</p>
+            <p>HD</p>
+            <p>FULL HD</p>
+            <p>4k</p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="circle">1</div><div class="text">Lorem ipsum dolor sit amet, con
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="circle">2</div><div class="text">Lorem ipsum dolor sit amet, con
+        adipiscing elit.</div>
+    </div>
+    <div class="wrapper">
+        <div class="circle">3</div><div class="text">Lorem ipsum dolor sit amet, con
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
+        commodo consequat.</div>
+    </div>
+</body>
+</html>
